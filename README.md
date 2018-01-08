@@ -1,2 +1,12 @@
-Head First HTML5 Programming is my second book in self-learning this stuff.  
-My first book was Head First HTML and CSS
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Learning HTML5 Programming</title>
+  </head>
+  <body>
+    <script>
+      <!--write javascript here-->
+    </script>
+  </body>
+</html>
