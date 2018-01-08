@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Expressions and Loops</title>
+  </head>
+  <body>
+    <script>
+      var numORString1="3"+"4";
+      var numORString2="3"*"4";
+      document.write(numORString1);
+      document.write(numORString2);
+    </script>
+  </body>
+</html>
