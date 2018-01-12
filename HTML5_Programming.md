@@ -6,7 +6,11 @@
   </head>
   <body>
     <script>
-      <!--write javascript here-->
+      var count=0;
+        for (var i=0; i<5; i++) {
+                           count=count+i;
+        }
+      alert("count is " +count);                     
     </script>
   </body>
 </html>
