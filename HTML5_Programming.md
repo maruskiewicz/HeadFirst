@@ -3,33 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Learning HTML5 Programming</title>
+    <script>
+	function init() {
+      	var planet=document.getElementById("greenplanet");
+   	planet.innerHTML="Red Alert: hit by phaser fire!";
+	}
+	
+	window.onload=init;
+    </script>
   </head>
   <body>
-    <script>
-      	var word1="a";
-	var word2="nam";
-	var word3="nal p";
-	var word4="lan a c";
-	var word5="a man a p";
-	    
-	var phrase="";
-	    
-	    for (var i=0; i<4; i++) {
-	    	if (i==0) {
-			phrase=word5;
-		}
-		else if (i==1) {
-			phrase=phrase+word4
-		}
-		else if (i==2) {
-			phrase=phrase+word1+word3;
-		}
-		else if (i==3) {
-			phrase=phrase+word1+word2+word1;
-		}
-	}
-	alert(phrase);
-
-    </script>
+	<h1>Green Planet</h1>
+	<p id="greenplanet">All is well</p>
+	  <h1>Red Planet</h1>
+		<p id="redplanet">Nothing to Report</p>
+	  <h1>Blue Planet</h1>
+	  <p id="blueplanet">All systems A-OK</p>
   </body>
+
 </html>
