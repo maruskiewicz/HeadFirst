@@ -4,21 +4,27 @@
     <meta charset="utf-8">
     <title>Learning HTML5 Programming</title>
     <script>
-	function init() {
-      	var planet=document.getElementById("greenplanet");
-   	planet.innerHTML="Red Alert: hit by phaser fire!";
+	function addSongs() {
+      	var song1=document.getElementById("song1");
+	var song2=document.getElementById("song2");
+	var song3=document.getElementById("song3");
+
+	song1.innerHTML="Blue Suede Strings, by Elvis Pagely";
+	song2.innerHTML="Great Objects on Fire, by Jerry JSON Lewis";
+	song3.innerHTML="I Code the Line, by Johnny JavaScript";
 	}
 	
-	window.onload=init;
+	window.onload=addSongs;
     </script>
   </head>
   <body>
-	<h1>Green Planet</h1>
-	<p id="greenplanet">All is well</p>
-	  <h1>Red Planet</h1>
-		<p id="redplanet">Nothing to Report</p>
-	  <h1>Blue Planet</h1>
-	  <p id="blueplanet">All systems A-OK</p>
+	<h1>My awesome playlist</h1>
+	<ul id="playlist">
+		<li id="song1"></li>
+		<li id="song2"></li>
+		<li id="song3"></li>
+	</ul>
   </body>
+
 
 </html>
